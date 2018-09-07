@@ -28,7 +28,8 @@ Figure 1 shows the high level diagram of Network-based Happy eyeballs. There is 
            <-----------+  |                       |
                           |     DNS Resolver      |
            +------------> |                       |
-        AAAA for a domain +-----------------------+
+        a qeruy for AAAA  +-----------------------+
+        record of a domain
 
 Figure 1. High level of how Network-based Happy Eyeballs works
 
