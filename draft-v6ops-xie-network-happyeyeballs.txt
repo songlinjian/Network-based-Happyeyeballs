@@ -85,7 +85,10 @@ Table of Contents
 
 1.  Introduction
 
-   Happy Eyeballs(HE) [RFC8305]provides an approach to enable clients to
+   During the period of IPv6 transition, both ISP and ICP care about
+   user's experience in dual-stack network.  They hesitate to provide
+   IPv6 to their users due to the fear of poor IPv6 performance.  Happy
+   Eyeballs(HE) [RFC8305] provides an approach to enable clients to
    attempt multiple connections in parallel.  It is helpful to work
    around the blocked, broken, or sub-optimal network.  Taken IPv6
    priority consideration in design, HE helps increase IPv6 traffic in
@@ -103,9 +106,6 @@ Table of Contents
    both mobile fees and power.  As a result mobile application
    developers may choose no to adopt HE or even not consider migrating
    their APPs to IPv6 due to the issues.  It is typical case in regions
-   where IPv6 performance is not as good as IPv4 in terms of RTT and
-   failure rate.
-
 
 
 
@@ -113,6 +113,9 @@ Xie & Song               Expires March 22, 2019                 [Page 2]
 
 Internet-DraftNetwork-side Happy Eyeballs based on accuratSeptember 2018
 
+
+   where IPv6 performance is not as good as IPv4 in terms of RTT and
+   failure rate.
 
    This draft is intend to proposed an Network-side Happy Eyeballs(NHE),
    an approach to address the same problem targeted by Client-side Happy
@@ -149,9 +152,6 @@ Internet-DraftNetwork-side Happy Eyeballs based on accuratSeptember 2018
    cache via a Push (or Pull) interface from NHE DNS resolver.  The
    criteria of putting a specific domain into that list and how to
    perform the measurement are introduced in Section 4.
-
-
-
 
 
 
