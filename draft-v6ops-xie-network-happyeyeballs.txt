@@ -172,7 +172,7 @@ Internet-DraftNetwork-side Happy Eyeballs based on accuratSeptember 2018
 
                       +--------------------------------+
                       |                                |
-                      | IPv6/IPv4 measurement          |
+                      | IPv6/IPv4 Measurement          |
                       |                                |
                       +--------------+-----------------+
                                 ^    |
