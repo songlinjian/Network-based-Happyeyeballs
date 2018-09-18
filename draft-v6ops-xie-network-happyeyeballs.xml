@@ -85,7 +85,7 @@
 
     <abstract>
       <t>
-        During period of IPv6 transition, both ISP and ICP cares 
+        During the period of IPv6 transition, both ISP and ICP care 
         about user's experience in dual-stack network. They hesitate 
         to provide IPv6 to their users due to the fear of poor IPv6 
         performance. Network-based Happy Eyeballs (NHE) is proposed 
