@@ -14,14 +14,15 @@ Expires: March 22, 2019                       Beijing Internet Institute
 
 Abstract
 
-   During period of IPv6 transition, both ISP and ICP cares about user's
-   experience in dual-stack network.  They hesitate to provide IPv6 to
-   their users due to the fear of poor IPv6 performance.  Network-based
-   Happy Eyeballs (NHE) is proposed in this memo as a approach to
-   provide better connectivity to end users by doing accurate
-   measurement and comparison on IPv6/IPv4 performance on the network
-   side other than client-side Happy Eyeballs ([RFC8305]).  It can also
-   work independently with the adoption of client-side Happy Eyeballs.
+   During the period of IPv6 transition, both ISP and ICP care about
+   user's experience in dual-stack network.  They hesitate to provide
+   IPv6 to their users due to the fear of poor IPv6 performance.
+   Network-based Happy Eyeballs (NHE) is proposed in this memo as a
+   approach to provide better connectivity to end users by doing
+   accurate measurement and comparison on IPv6/IPv4 performance on the
+   network side other than client-side Happy Eyeballs ([RFC8305]).  It
+   can also work independently with the adoption of client-side Happy
+   Eyeballs.
 
    REMOVE BEFORE PUBLICATION: The source of the document with test
    script is currently placed at GitHub [NHE-GitHub].  Comments and pull
@@ -48,7 +49,6 @@ Copyright Notice
 
    Copyright (c) 2018 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
-
 
 
 
@@ -365,6 +365,10 @@ Internet-DraftNetwork-side Happy Eyeballs based on accuratSeptember 2018
    the typical scenario of DNSSEC though, in the case clients ask for
    RRSIG record of AAAA.
 
+   Filtering AAAA records cause DNS incoherency in the end users
+   perspective which may causse some risks if end user's application
+   depend on the integrity of DNS data.
+
 6.  IANA considerations
 
    No IANA considerations for this memo
@@ -381,10 +385,6 @@ Internet-DraftNetwork-side Happy Eyeballs based on accuratSeptember 2018
               "Filter AAAA option in BIND 9", August 2017,
               <https://kb.isc.org/docs/aa-00576>.
 
-   [Less-painful]
-              Yahoo, "IPv6 and recursive resolvers:How do we make the
-              transition less painful?", March 2010,
-              <https://www.ietf.org/proceedings/77/slides/dnsop-7.pdf>.
 
 
 
@@ -393,6 +393,11 @@ Xie & Song               Expires March 22, 2019                 [Page 7]
 
 Internet-DraftNetwork-side Happy Eyeballs based on accuratSeptember 2018
 
+
+   [Less-painful]
+              Yahoo, "IPv6 and recursive resolvers:How do we make the
+              transition less painful?", March 2010,
+              <https://www.ietf.org/proceedings/77/slides/dnsop-7.pdf>.
 
    [NHE-GitHub]
               BII, "GitHub Repository of Network-side Happy Eyeballs",
@@ -430,11 +435,6 @@ Authors' Addresses
    P. R. China
 
    Email: songlinjian@gmail.com
-
-
-
-
-
 
 
 
