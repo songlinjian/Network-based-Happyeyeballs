@@ -400,6 +400,12 @@
       the typical scenario of DNSSEC though, in the case clients ask for 
       RRSIG record of AAAA. 
     </t>
+
+    <t>
+      Filtering AAAA records cause DNS incoherency in the end users perspective 
+      which may causse some risks if end user's application depend on the 
+      integrity of DNS data.
+    </t>
   </section>
 
     <section title="IANA considerations">
