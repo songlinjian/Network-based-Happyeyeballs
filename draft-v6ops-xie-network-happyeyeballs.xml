@@ -93,9 +93,8 @@
         in this memo as a approach to provide better connectivity to 
         end users by doing accurate measurement and comparison on 
         IPv6/IPv4 performance on the network side other than 
-        client-side Happy Eyeballs (<xref target="RFC8305" />).
-        It can also work independently with the adoption of client-side 
-        Happy Eyeballs.
+        client-side Happy Eyeballs (HE) (<xref target="RFC8305" />).
+        It works independently with client's adoption of HE.
       </t>
 
       <t>
